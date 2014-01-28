@@ -2,22 +2,27 @@
  
 ##Learning Competencies 
 
+* Position elements using fixed positioning 
+* Describe the characteristics of the box model
+* Change basic CSS appearance: colors, widths, padding, margin
+* Use CSS psuedo-classes to create dynamic behavior (like :hover)
+
 ##Summary 
 
- There are so many options for navigation menus, it can get a bit overwhelming.  There is no one "right" option, but there should be a clear relationship between the design of the navigation area and the layout and flow of the site.
+There are so many options for navigation menus, it can get a bit overwhelming.  There is no one "right" option, but there should be a clear relationship between the design of the navigation area and the layout and flow of the site.
 
 For a site with a single-page style layout (i.e. almost all of the primary content is on a long, scrollable page), a "sticky" navigation area is useful because the user can easily jump around from one section to another without having to scroll all the way back to the top to view the navigation options.  What does "sticky" mean?  It means that when you scroll down the page, the navigation area stays locked in your view window: only the content area actually scrolls.
 
-The [source gist](https://gist.github.com/dbc-challenges/c1e790667d9240f80b7a) contains a basic HTML file for a product site.  You will need to write the CSS to transform the ugly list of navigation links into nice sidebar-style sticky navigation menu.
+The `/source` directory contains a basic HTML file for a product site.  You will need to write the CSS to transform the ugly list of navigation links into nice sidebar-style sticky navigation menu.
 
 You will need to brandish the powers of CSS's `position` property to get this to work properly.  If you aren't familiar with the difference between `static` and `fixed` positioning, you may want to check these resources out:
 
-- [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
-- [Video: Overview of CSS Positioning Values](http://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/)
+* [CSS Positioning 101][]
+* [Video: Overview of CSS Positioning Values][]
 
-## Objectives
+##Releases
 
-### Write your Markup and Style It
+###Release 0 : Write your Markup and Style It
 
 Add styles to your page by editing `main.css` so that your navigation menu looks like this:
 
@@ -48,9 +53,13 @@ And **NOT** like this:
 
 That is bad.  Don't do that. 
 
-##Releases
-###Release 0 
-
-##Optimize Your Learning 
+<!-- ##Optimize Your Learning  -->
 
 ##Resources
+
+
+* [CSS Positioning 101][]
+* [Video: Overview of CSS Positioning Values][]
+
+[CSS Positioning 101]:http://alistapart.com/article/css-positioning-101
+[Video: Overview of CSS Positioning Values]:http://css-tricks.com/video-screencasts/110-quick-overview-of-css-position-values/
