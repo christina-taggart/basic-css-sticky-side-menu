@@ -9,6 +9,8 @@
   */
   margin: 0 auto;  
   width: 720px;
+  position: absolute;
+  left:200px;
 }
 
 nav{
