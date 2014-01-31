@@ -1,19 +1,43 @@
+body {
+  display: inline-block;
+  margin: 0px;
+}
+
 .container {
   margin: 0 auto;
   width: 720px;
-  display: inline;
 }
 
 nav {
-  background-color: gray;
+  background-color: #B5B2B8;
   position: fixed;
   height: 100%;
 }
 
 .content {
-  padding-left: 105px;
+  padding: 60px 0px 0px 120px;
+}
+
+h1 {
+  position: absolute;
+  padding-left: 120px;
 }
 
 li {
   list-style: none;
+  border-bottom: solid 1px gray;
+  padding: 3px 40px 3px 10px;
+}
+
+ul {
+  padding-left: 0px
+}
+
+.footer {
+  padding-left: 120px;
+}
+
+a {
+  text-decoration: none;
+    color: #1B1F1D;
 }
